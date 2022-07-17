@@ -10,7 +10,7 @@ func main() {
 	const num2 = 10
 	var numberi = "Hello means salam"
 	var work = " Nice job"
-	var sima = "raftam"
+	var sima = 'r'
 	fmt.Scanln(&numberi) //pointer format
 	num3, err := strconv.Atoi(numberi)
 	if err != nil {
@@ -19,6 +19,7 @@ func main() {
 	}
 	num4 := -4 + 3i
 	num5 := 25.36
+
 	if num1 < num2 {
 		fmt.Printf("this is %c", num2)
 	} else {
