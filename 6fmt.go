@@ -29,10 +29,10 @@ func main() {
 		fmt.Printf("base 16 num2 is %X\n\n", num2)
 		fmt.Printf("base 16 num3 is %X\n", num3)
 		fmt.Printf("string is %s\n", work)
-		fmt.Printf("try to use %q\n", work)
+		fmt.Printf("string format with quoted %q\n", work)
 		fmt.Printf("format for Character %c\n", sima)
 		fmt.Printf("format for unicode: %U\n", num2)
 		fmt.Printf("format for scientific notation%E\n ", num4)
-		fmt.Printf("float format %.2f", num5)
+		fmt.Printf("float format %.5f\n", num5)
 	}
 }
